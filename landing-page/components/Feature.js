@@ -10,7 +10,7 @@ const FeatureBox = (props) => {
         <Row key={key} className={feature.id === 1 ? "align-items-center" : "align-items-center mt-5"}>
           <Col md={5} >
             <div>
-              <Image src={feature.img} alt="" className="img-fluid d-block mx-auto"/>
+              <Image src={feature.img} alt="" className="img-fluid d-block mx-auto" layout='fill'/>
             </div>
           </Col>
             <Col md={{size:6, offset:1}}>
@@ -38,7 +38,7 @@ const FeatureBox = (props) => {
         </Col>
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
           <div>
-            <Image src={feature.img} alt="" className="img-fluid d-block mx-auto"/>
+            <Image src={feature.img} alt="" className="img-fluid d-block mx-auto" layout='fill'/>
           </div>
         </Col>
       </Row>
@@ -49,9 +49,9 @@ const FeatureBox = (props) => {
 }
 const Feature = () => {
 const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, img : "/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 2, img : "/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
+    {id : 3, img : "/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
   ];
 return (
     <section className="section" id="feature">
