@@ -50,6 +50,9 @@ const Header = () => {
                             <NavItem>
                                 <NavLink href="#whitepaper">Whitepaper(coming soon)</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink href="https://chaineducation.niceboard.co/" target={_blank}>Job Board</NavLink>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Container>
