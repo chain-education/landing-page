@@ -39,6 +39,9 @@ const Header = () => {
                                 <NavLink href="/">Home</NavLink>
                             </NavItem>
                             <NavItem>
+                                <NavLink href="/tracks">Tracks</NavLink>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink href="/instructors">Instructors</NavLink>
                             </NavItem>
                             <NavItem>
