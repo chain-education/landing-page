@@ -39,13 +39,13 @@ const Header = () => {
                                 <NavLink href="/">Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#classrooms">Classrooms</NavLink>
+                                <NavLink href="#info">Info</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#instructors">Instructors</NavLink>
+                                <NavLink href="/instructors">Instructors</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#about">About</NavLink>
+                                <NavLink href="/about-us">About Us</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="#whitepaper">Whitepaper(coming soon)</NavLink>
