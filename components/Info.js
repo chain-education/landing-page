@@ -29,6 +29,9 @@ const Hero = () => {
                 <br />
                 <br />
                 Students can rate and review the courses too.
+                <br />
+                <br />
+                We do also have our own Job Board where users can find perfect opportunity.
               </p>
             </div>
           </Col>
